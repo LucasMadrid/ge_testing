@@ -1,0 +1,47 @@
+{
+  "data_asset_type": null,
+  "expectation_suite_name": "tripdata_nyc_suit_expectations_csv",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_be_between",
+      "kwargs": {
+        "column": "passenger_count",
+        "max_value": 6,
+        "min_value": 1
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_to_exist",
+      "kwargs": {
+        "column": "passenger_count"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_unique_value_count_to_be_between",
+      "kwargs": {
+        "column": "passenger_count",
+        "max_value": 7,
+        "min_value": 5
+      },
+      "meta": {}
+    }
+  ],
+  "ge_cloud_id": null,
+  "meta": {
+    "citations": [
+      {
+        "batch_request": {
+          "data_asset_name": "yellow_tripdata_sample_2019-01.csv",
+          "data_connector_name": "default_inferred_data_connector_name",
+          "datasource_name": "nyc_tripdata_2019_csv",
+          "limit": 1000
+        },
+        "citation_date": "2022-01-03T16:24:02.590192Z",
+        "comment": "Created suite added via CLI"
+      }
+    ],
+    "great_expectations_version": "0.13.49"
+  }
+}
