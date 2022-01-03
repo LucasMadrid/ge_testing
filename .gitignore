@@ -1,0 +1,21 @@
+venv/
+ge_dbt_airflow_tutorial/target/
+ge_dbt_airflow_tutorial/dbt_modules/
+logs/
+.venv/
+__pycache__/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+**/.DS_Store
+.idea/
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
